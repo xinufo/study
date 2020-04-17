@@ -27,9 +27,7 @@ public class InsertionSort {
 					break;
 				}
 			}
-			// 若之前移动过元素则插入
-			if (j >= 0)
-				arr[++j] = tmp;
+            arr[++j] = tmp;
 		}
 		return arr;
 	}
